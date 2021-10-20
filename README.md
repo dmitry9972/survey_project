@@ -1,15 +1,15 @@
-Full development log:
-survey_project/development_log.odt 
+Full development log:  
+survey_project/development_log.odt   
 
 
-How to install:
-mkdir survey_project
-cd survey_project
-pip install virtualenv
-virtualenv newenv
-source newenv/bin/activate
-pip install django==2.2.10
-pip install djangorestframework==3.12.4
+How to install:  
+mkdir survey_project  
+cd survey_project  
+pip install virtualenv  
+virtualenv newenv  
+source newenv/bin/activate  
+pip install django==2.2.10  
+pip install djangorestframework==3.12.4  
 pip install django-cors-headers
 pip install -U drf-yasg
 git clone https://github.com/dmitry9972/survey_project.git
