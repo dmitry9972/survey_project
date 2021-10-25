@@ -1,8 +1,8 @@
-FULL DEVELOPMENT LOG:  
+# FULL DEVELOPMENT LOG:  
 survey_project/development_log.odt   
   
   
-HOW TO INSTALL:  
+# HOW TO INSTALL:  
 mkdir survey_project  
 cd survey_project  
 pip install virtualenv  
@@ -17,12 +17,12 @@ cd survey_project
 python3 manage.py runserver  
   
   
-API DOCUMENTATION:  
+# API DOCUMENTATION:  
 http://127.0.0.1:8000/api/swagger/  
 http://127.0.0.1:8000/api/redoc/  
   
   
-CURL-REQUEST-EXAMPLES:  
+# CURL-REQUEST-EXAMPLES:  
 
 Making survey:  
 curl -X POST -H "Authorization: Token 80e5926c35fd17acf3fa2d6b75ee2d84b0135de8" -d "name='TEST SURVEY 333'&description='CURL TEST SURVEY333'&start_date=29-10-2021 14-36-23&end_date=29-10-2022 14-36-23" 'http://127.0.0.1:8000/api/Survey/'  
