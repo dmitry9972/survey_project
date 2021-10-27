@@ -20,6 +20,10 @@ python3 manage.py runserver
 # API DOCUMENTATION:  
 http://127.0.0.1:8000/api/swagger/  
 http://127.0.0.1:8000/api/redoc/  
+
+
+# DATABASE SCHEME:  
+![This is an image](https://github.com/dmitry9972/survey_project/blob/main/survey_database_cheme.png)
   
   
 # CURL-REQUEST-EXAMPLES:  
